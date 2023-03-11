@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
-const bot = require("./src/telegram");
-const purchase = require("./src/controllers");
+const { purchase } = require("./src/controllers");
+require("./src/telegram");
 
 const app = express();
 
